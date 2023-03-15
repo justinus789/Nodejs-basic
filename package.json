@@ -2,15 +2,16 @@
   "name": "nodejs-basic",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start-dev": "NODE_ENV=development node app.js",
-    "start": "NODE_ENV=production node app.js"
+    "dev": "nodemon ./nodejs-web-server/server.js",
+    "start": "node ./nodejs-web-server/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.21"
   }
 }
